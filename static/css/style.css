@@ -1,0 +1,75 @@
+body {
+    margin: 0;
+    padding: 20px;
+    color: #51555f;
+    font-family: Arial, sans-serif;
+    background-image: url('/static/images/cover.webp');
+    background-color: #f4f6fc;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.result-content {
+    background-image: none;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.form-submit {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.textarea {
+    width: 25%;
+    height: 60px;
+    padding: 10px;
+    border: 2px solid #cad4ee;
+    background-color: #f4f6fc;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+}
+
+.textarea:focus {
+    outline: none;
+}
+
+.button {
+    padding: 10px 20px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #dae1f3;
+    border-color: #8d94a7;
+    color: #51555f;
+    cursor: pointer;
+}
+
+.button-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.ascii-art-container {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ascii-art-frame {
+    width: 75%;
+    height: 300px;
+    border: 2px solid #cad4ee;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+    font-family: monospace;
+    align-items: center;
+    font-size: 12px;
+    line-height: 1.2;
+    padding: 10px;
+}

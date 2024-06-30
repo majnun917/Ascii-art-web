@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ascii Art Web</title>
+    <link rel="stylesheet" type="text/css" href="/static/css/style.css">
+    <link rel="icon" type="image/jpeg" href="/static/images/favicon.png">
+</head>
+
+<body>
+    <form action="/submit" method="post" target="asciiArtFrame">
+        <div class="form-container">
+            <div>
+                <b>Banners:</b>
+
+                <input type="radio" name="banner" id="standard" value="standard" />
+                <label for="standard">Standard</label>
+
+                <input type="radio" name="banner" id="shadow" value="shadow" />
+                <label for="shadow">Shadow</label>
+
+                <input type="radio" name="banner" id="thinkertoy" value="thinkertoy" />
+                <label for="thinkertoy">Thinkertoy</label>
+            </div>
+            <br>
+            <textarea name="text" id="text" placeholder="Type something" class="textarea" required></textarea>
+        </div>
+        <div class="form-submit">
+            <input type="submit" class="button" value="Submit" />
+        </div>
+    </form>
+
+    <div class="ascii-art-container">
+        <h2>Generated Ascii Art:</h2>
+        <iframe name="asciiArtFrame" class="ascii-art-frame"></iframe>
+        <br>
+        <div class="button-container">
+            <form action="/download" method="get" target="asciiArtFrame">
+                <button type="submit" class="button">Download</button>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
