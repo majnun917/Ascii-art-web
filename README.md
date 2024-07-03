@@ -40,7 +40,7 @@ Web user interface with:
 - Button to send a POST request to /ascii-art and display the result
 
 *Image of the page web*
-![Screenshot of the webpage](static/images/photo.png)
+![Screenshot of the webpage](static/images/Screenshot.png)
 
 ## Implementation details
 ### Algorithm
