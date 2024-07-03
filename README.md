@@ -67,10 +67,6 @@ symbols, it remains a fundamental encoding standard in computer systems.<br><br>
 - **404 Not Found**: The requested resource could not be found but may be available in the future.
 - **500 Internal Server Error**: The server encountered an error and could not complete the request.<br/>
 For more details [HTTP status codes](https://en.wikipedia.org/wiki/List_of_HTTP_status_codes)
-## Autors
-- [Ndiasse Dieye](https://learn.zone01oujda.ma/git/ndieye)
-- [Otchoun Agiel](https://learn.zone01oujda.ma/git/aotchoun)
-- [Abdelilah Sadiqui](https://learn.zone01oujda.ma/git/asadiqui)
 
 ## License
 This project is open-sourced under [the MIT License](https://opensource.org/license/mit).
