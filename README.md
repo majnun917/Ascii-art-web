@@ -32,7 +32,7 @@ go run . -port <port number>
 ```
 Then you need to navigate to:
 ```console
-http://localhost:<port number>
+http://localhost: <port number>
 ``` 
 Web user interface with:
 - Text entry field
